@@ -1,0 +1,25 @@
+1. Write a Typescript program that calculates the area of circle.
+
+   //Function to calculate the area
+   function CArea(radius: number):
+     number {
+              return Math.PI*radius*radius;
+             }
+   // Testing the function          
+     const circleRadius: number = 4;
+     console.log('The area of a circle with radius ${circleRadius} is: {CArea(circleRadius).toFixed(2)}');
+     
+2. Write a TypeScript program that calculates the area of triangle.
+
+  
+  //Function to caclculate the area of triangle
+   function calculateTriangleArea(base: number, height: number):
+     number {
+              return 0.5*base*height;
+            }
+    //Testing the function
+    const trianglebase: number = 12;
+    const triangleheight: number = 5;
+    console.log('The area of a trianglewith base ${triangleBase} and height ${triangleHeight} is: 
+    ${calculateTriangleArea(triangleBase, triangleHeight)}');
+            
